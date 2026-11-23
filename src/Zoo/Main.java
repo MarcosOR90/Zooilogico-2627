@@ -15,6 +15,7 @@ import Zoo.Pez.PezEspada;
 import Zoo.Ave.Colibri;
 import Zoo.Insecto.Hormiga;
 import Zoo.Reptiles.Iguana;
+import Zoo.Pez.PezGlobo;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,6 +39,7 @@ public class Main {
         listaDeAnimales.add(new Saltamontes());
         listaDeAnimales.add(new Hormiga());
         listaDeAnimales.add(new Iguana());
+        listaDeAnimales.add(new PezGlobo());
 
         // Igualo la lista creada en la clase con la lista de todos los animales.
         // Asi conoce los animales de la lista y... podrá morderlos!!
